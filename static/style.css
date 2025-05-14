@@ -1,0 +1,39 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cyan;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+
+.section
+{
+    background-color: beige;
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 50px 0 20px maroon;
+    width: 90%;
+    max-width: 500px;
+}
+
+form input
+{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+button
+{
+    padding: 10px;
+    background-color: greenyellow;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    color: blue;
+    cursor: pointer;
+}
