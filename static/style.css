@@ -8,7 +8,6 @@ body
     justify-content: center;
     min-height: 100vh
 }
-
 .section
 {
     background-color: beige;
@@ -18,7 +17,6 @@ body
     width: 90%;
     max-width: 500px;
 }
-
 form input
 {
     width: 100%;
@@ -26,8 +24,7 @@ form input
     margin: 5px;
     border-radius: 10px;
 }
-
-button
+.botonenviar
 {
     padding: 10px;
     background-color: greenyellow;
@@ -35,5 +32,27 @@ button
     border: none;
     border-radius: 20px;
     color: blue;
+    cursor: pointer;
+}
+.botonborrar
+{
+    padding: 10px;
+    background-color: rgb(122, 13, 90);
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(123, 255, 0);
+    cursor: pointer;
+}
+table th
+{
+    border: 2px solid coral;
+    margin-top: 10opx color blue;
+}
+a
+{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
     cursor: pointer;
 }
