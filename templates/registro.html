@@ -9,13 +9,14 @@
 <body>
     <div class="section">
         <form method="post">
+            <h3>Formulario para Crear</h3>
             <input type="text" name="nombre" id=""placeholder="Ingrese su nombre" required>
             <input type="email" name="correo" id=""placeholder="Ingrese su correo electronico" required>
             <button class="botonenviar" type="submit">Registrar usuarios</button><br><br>
         </form>
         <table>
             <tr>
-                <th>id usuario</th><th>nombre de usuario</th><th>correo electronico</th><th>Acciones</th>
+                <th>id usuario</th><th>nombre de usuario</th><th>correo electronico</th><th colspan="2">Acciones</th>
                 {% for persona in usuarios %}
                     <tr>
                         <td>{{persona.id}}              </td>
@@ -24,6 +25,11 @@
                         <td>
                             <button class="botonborrar">
                                 <a href="/?borrar={{persona.id}}">Eliminar</a>
+                            </button>
+                        </td>
+                        <td>
+                            <button class="botonactualizar">
+                                <a href="/update/{{persona.id}}">Actualizar</a>
                             </button>
                         </td>
                     </tr>

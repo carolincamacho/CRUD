@@ -44,6 +44,16 @@ form input
     color: rgb(123, 255, 0);
     cursor: pointer;
 }
+.botonactualizar
+{
+    padding: 10px;
+    background-color: rgb(122, 13, 90);
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(123, 255, 0);
+    cursor: pointer;
+}
 table th
 {
     border: 2px solid coral;
@@ -52,7 +62,7 @@ table th
 a
 {
     text-decoration:none;
-    color:rgb(255, 255, 255);
+    color:rgb(12, 12, 12);
     font-weight: bold;
     cursor: pointer;
 }
